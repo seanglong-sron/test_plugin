@@ -728,7 +728,7 @@ class WOO_Slg_Admin {
 	public function add_hooks() {
 		
 		//add admin menu pages
-		//add_action ( 'admin_menu', array( $this, 'woo_slg_admin_menu_pages' ) );
+		add_action ( 'admin_menu', array( $this, 'woo_slg_admin_menu_pages' ) );
 		
 		// mark up for popup
 		add_action( 'admin_footer-post.php', array( $this,'woo_slg_shortcode_popup' ) );

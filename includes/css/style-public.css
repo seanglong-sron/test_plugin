@@ -68,8 +68,7 @@
 	margin: auto;
     padding: 2% 0 2%;
     width: 320px;
-    max-width: 100%;
-	text-align:center;
+    max-width: 100%
 }
 .login-area .ps-form #woo-slg-social-container-login {
 	width: 100%;
